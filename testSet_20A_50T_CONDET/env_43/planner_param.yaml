@@ -1,0 +1,30 @@
+flagOptimizeCost: true
+flagTaskComplete: true
+flagSprAddCutToSameType: true
+taskCompleteReward: 10000
+timePenalty: 100
+recoursePenalty: 1.0
+taskRiskPenalty: 0.0
+LARGETIME: 10000.0
+MAXTIME: 1000.0
+MAXENG: 100000000.0
+flagSolver: TEAMPLANNER_CONDET
+CcpBeta: 0.95
+taskBeta: 0.95
+solverMaxTime: 300.0
+solverIterMaxTime: 50.0
+flagNotUseUnralavant: true
+MAXALPHA: 20.0
+taskNum: 50
+vehNum: 1
+capNum: 1
+vehTypeNum: 1
+vehNumPerType:
+- 20
+sampleNum: 500
+randomType: 0
+capType:
+- 0
+vehicleParamFile: ./testSet_20A_50T_CONDET/env_43/vehicle_param.yaml
+taskParamFile: ./testSet_20A_50T_CONDET/env_43/task_param.yaml
+graphFile: ./testSet_20A_50T_CONDET/env_43/graph.yaml

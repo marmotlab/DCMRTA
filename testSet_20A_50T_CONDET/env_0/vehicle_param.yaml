@@ -1,0 +1,7 @@
+vehicle0:
+  engCap: 1000000.0
+  engCost: 0.0
+  capVector:
+  - 1.0
+  capVar:
+  - 0.0
